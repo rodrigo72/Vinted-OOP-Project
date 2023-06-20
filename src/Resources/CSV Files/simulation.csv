@@ -1,0 +1,50 @@
+12.05.2023,15:18
+13.05.2023,16:40,CreateUser,rodrigo@mail.com,Rodrigo Monteiro,Portugal,Braga,Rua das Nozes,4910-200
+13.05.2023,16:40,CreateUser,gramoso@mail.com,Miguel Gramoso,Teyvat,Mondstadt,Windrise,7100-120
+13.05.2023,18:40,CreateCarrier,CTT,3,6,10,0.23,0.3,2
+13.05.2023,23:10,SellArticle,rodrigo@mail.com,CTT,T-SHIRT,Very nice t-shirt,Off-White,199,S,SOLID
+13.05.2023,18:50,SellArticle,rodrigo@mail.com,CTT,USED,2,0.1,PREMIUM,0.2,BAG,Very nice bag,Gucci,1999.99,10,6,8,Leather,2020,0.1
+13.05.2023,19:01,SellArticle,rodrigo@mail.com,CTT,PREMIUM,0.1,SHOES,Very nice shoes,Nike,59.99,41,with laces,red,2018,0.25
+14.05.2023,14:15,SellArticle,rodrigo@mail.com,CTT,USED,2,0.4,SHOES,The greatest shoes to ever exist,Crocs,9.99,39,without laces,green,2022,0.3
+14.05.2023,14:30,AddToCart,gramoso@mail.com,Very nice shoes
+14.05.2023,14:50,AddToCart,gramoso@mail.com,The greatest shoes to ever exist
+16.05.2023,23:10,BuyOrder,gramoso@mail.com,500
+16.05.2023,04:10,CancelOrder,gramoso@mail.com,1
+17.05.2023,14:31,AddToCart,gramoso@mail.com,Very nice t-shirt
+17.05.2023,15:12,AddToCart,gramoso@mail.com,Very nice bag
+17.05.2023,16:08,BuyOrder,gramoso@mail.com,5000
+21.05.2023,10:07,ReturnOrder,gramoso@mail.com,1
+22.05.2023,11:21,ChangeUserValue,rodrigo@mail.com,NAME,Rodrigo El Monteiro
+22.05.2023,11:22,ChangeUserValue,rodrigo@mail.com,COUNTRY,Japan
+22.05.2023,11:22,ChangeUserValue,rodrigo@mail.com,CITY,Okayama
+22.05.2023,11:23,ChangeUserValue,rodrigo@mail.com,STREET,Momotaro Odori
+22.05.2023,11:23,ChangeUserValue,rodrigo@mail.com,POSTAL-CODE,700-0823
+24.05.2023,16:14,ChangeCarrierValue,CTT,BASE-PRICE-SMALL,2
+24.05.2023,16:14,ChangeCarrierValue,CTT,BASE-PRICE-MEDIUM,10
+24.05.2023,16:14,ChangeCarrierValue,CTT,BASE-PRICE-BIG,20
+24.05.2023,16:14,ChangeCarrierValue,CTT,TAX,0.1
+24.05.2023,16:14,ChangeCarrierValue,CTT,PROFIT-RATE,0.5
+24.05.2023,16:40,CreateCarrier,LCR Express,4,5,9,0.16,0.25
+24.05.2023,17:01,CreateUser,artur@mail.com,Artur Dias,Portugal,Porto,Rua das Fontes,6578-100
+24.05.2023,17:02,CreateUser,maria@mail.com,Maria Dias,Portugal,Porto,Rua das Fontes,6578-100
+24.05.2023,17:03,CreateUser,pedro@mail.com,Pedro António,Portugal,Porches,Rua Poço da Gola,8400-450
+24.05.2023,19:01,SellArticle,artur@mail.com,CTT,USED,1,0.5,PREMIUM,0.15,SHOES,Sapatos assinados pelo Ted Williams,Adidas,105.0,42,with laces,white,1943,0.1
+25.05.2023,00:10,SellArticle,artur@mail.com,LCR Express,T-SHIRT,Breaking bad T-Shirt,Blue Sky,39.99,M,SOLID
+25.05.2023,08:25,SellArticle,maria@mail.com,LCR Express,T-SHIRT,Make a statement with this bold graphic tee perfect for a night out with friends,Nike,50,S,PALM TREES
+25.05.2023,14:15,SellArticle,pedro@mail.com,CTT,SHOES,Stylish and comfortable Puma shoes perfect for any occasion,Puma,65.99,41,with laces,white,2022,0.2
+26.05.2023,08:58,AddToCart,artur@mail.com,Stylish and comfortable Puma shoes perfect for any occasion
+26.05.2023,08:59,BuyOrder,artur@mail.com,100
+26.05.2023,09:15,AddToCart,artur@mail.com,The greatest shoes to ever exist
+26.05.2023,16:08,BuyOrder,artur@mail.com,30
+26.05.2023,16:50,CancelOrder,artur@mail.com,2
+26.05.2023,17:10,AddToCart,pedro@mail.com,Sapatos assinados pelo Ted Williams
+26.05.2023,09:15,AddToCart,pedro@mail.com,The greatest shoes to ever exist
+26.05.2023,17:20,BuyOrder,pedro@mail.com,2000
+27.05.2023,12:33,AddToCart,maria@mail.com,Breaking bad T-Shirt
+27.05.2023,12:51,AddToCart,maria@mail.com,Make a statement with this bold graphic tee perfect for a night out with friends
+27.05.2023,14:10,AddToCart,maria@mail.com,Very nice bag
+27.05.2023,14:20,BuyOrder,maria@mail.com,4000
+28.05.2023,04:10,AddToCart,gramoso@mail.com,Very nice t-shirt
+28.05.2023,04:37,AddToCart,gramoso@mail.com,Very nice shoes
+28.05.2023,04:40,BuyOrder,gramoso@mail.com,400
+03.06.2023,12:01,SaveSate

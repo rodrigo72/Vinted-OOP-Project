@@ -1,0 +1,3238 @@
+2023-05-05 17:01:31.813:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.run(UserController.java:41)
+	at Controller.AppController.login(AppController.java:105)
+	at Controller.AppController.menu(AppController.java:80)
+	at Main.main(Main.java:16)
+
+2023-05-05 17:01:34.646:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.run(UserController.java:41)
+	at Controller.AppController.login(AppController.java:105)
+	at Controller.AppController.menu(AppController.java:80)
+	at Main.main(Main.java:16)
+
+2023-05-06 18:50:23.028:
+Model.Data.Exceptions.AlreadyExistsInCatalogException
+	at Model.Data.Catalogs.UserCatalog.add(UserCatalog.java:53)
+	at Model.AppModel.addUserToCatalog(AppModel.java:44)
+	at Controller.AppController.register(AppController.java:128)
+	at Controller.AppController.menu(AppController.java:75)
+	at Main.main(Main.java:16)
+
+2023-05-06 23:29:40.991:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:116)
+	at Controller.UserController.run(UserController.java:44)
+	at Controller.AppController.login(AppController.java:117)
+	at Controller.AppController.menu(AppController.java:92)
+	at Main.main(Main.java:16)
+
+2023-05-07 11:08:44.724:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:79)
+	at Controller.UserController.run(UserController.java:44)
+	at Controller.AppController.login(AppController.java:117)
+	at Controller.AppController.menu(AppController.java:92)
+	at Main.main(Main.java:16)
+
+2023-05-07 11:10:00.096:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.displayCart(UserController.java:307)
+	at Controller.UserController.run(UserController.java:53)
+	at Controller.AppController.login(AppController.java:117)
+	at Controller.AppController.menu(AppController.java:92)
+	at Main.main(Main.java:16)
+
+2023-05-07 16:37:26.814:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:79)
+	at Controller.UserController.run(UserController.java:44)
+	at Controller.AppController.login(AppController.java:148)
+	at Controller.AppController.menu(AppController.java:107)
+	at Main.main(Main.java:16)
+
+2023-05-07 16:48:20.753:
+java.io.InvalidClassException: Model.Data.Catalogs.ArticleCatalog; local class incompatible: stream classdesc serialVersionUID = -6703395874675182332, local class serialVersionUID = -5857259364413888497
+	at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:597)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2076)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1925)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2248)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream$FieldValues.<init>(ObjectInputStream.java:2625)
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2476)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2280)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:538)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:496)
+	at Model.State.loadData(State.java:29)
+	at Controller.AppController.runController(AppController.java:70)
+	at Main.main(Main.java:15)
+
+2023-05-07 20:55:53.779:
+java.io.InvalidClassException: Model.Data.UserManager; local class incompatible: stream classdesc serialVersionUID = 7260020498690008332, local class serialVersionUID = -5331037682113284443
+	at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:597)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2076)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1925)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2248)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream$FieldValues.<init>(ObjectInputStream.java:2625)
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2476)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2280)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:538)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:496)
+	at Model.State.loadData(State.java:29)
+	at Controller.AppController.runController(AppController.java:67)
+	at Main.main(Main.java:10)
+
+2023-05-07 20:56:03.086:
+java.io.InvalidClassException: Model.Data.UserManager; local class incompatible: stream classdesc serialVersionUID = 7260020498690008332, local class serialVersionUID = -5331037682113284443
+	at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:597)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2076)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1925)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2248)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream$FieldValues.<init>(ObjectInputStream.java:2625)
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2476)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2280)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:538)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:496)
+	at Model.State.loadData(State.java:29)
+	at Controller.AppController.runController(AppController.java:67)
+	at Main.main(Main.java:10)
+
+2023-05-07 20:56:26.878:
+java.io.FileNotFoundException: AppLog.dat (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at Model.State.loadData(State.java:27)
+	at Controller.AppController.runController(AppController.java:67)
+	at Main.main(Main.java:10)
+
+2023-05-08 00:34:24.387:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:79)
+	at Controller.UserController.run(UserController.java:44)
+	at Controller.AppController.login(AppController.java:171)
+	at Controller.AppController.menu(AppController.java:114)
+	at Main.main(Main.java:11)
+
+2023-05-08 00:35:37.789:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:88)
+	at Controller.UserController.run(UserController.java:44)
+	at Controller.AppController.login(AppController.java:171)
+	at Controller.AppController.menu(AppController.java:114)
+	at Main.main(Main.java:11)
+
+2023-05-08 11:58:30.620:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2569)
+	at Controller.UserController.sell(UserController.java:136)
+	at Controller.UserController.run(UserController.java:48)
+	at Controller.AppController.login(AppController.java:171)
+	at Controller.AppController.menu(AppController.java:114)
+	at Main.main(Main.java:11)
+
+2023-05-08 12:35:25.562:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:91)
+	at Controller.UserController.run(UserController.java:48)
+	at Controller.AppController.login(AppController.java:171)
+	at Controller.AppController.menu(AppController.java:114)
+	at Main.main(Main.java:11)
+
+2023-05-08 12:36:23.138:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:91)
+	at Controller.UserController.run(UserController.java:48)
+	at Controller.AppController.login(AppController.java:171)
+	at Controller.AppController.menu(AppController.java:114)
+	at Main.main(Main.java:11)
+
+2023-05-08 12:57:54.646:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:91)
+	at Controller.UserController.run(UserController.java:48)
+	at Controller.AppController.login(AppController.java:171)
+	at Controller.AppController.menu(AppController.java:114)
+	at Main.main(Main.java:11)
+
+2023-05-08 18:53:35.767:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:91)
+	at Controller.UserController.run(UserController.java:48)
+	at Controller.AppController.login(AppController.java:172)
+	at Controller.AppController.menu(AppController.java:115)
+	at Main.main(Main.java:11)
+
+2023-05-08 19:04:23.290:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:91)
+	at Controller.UserController.run(UserController.java:48)
+	at Controller.AppController.login(AppController.java:172)
+	at Controller.AppController.menu(AppController.java:115)
+	at Main.main(Main.java:11)
+
+2023-05-09 00:43:11.998:
+java.lang.NullPointerException: Cannot invoke "java.util.ResourceBundle.getString(String)" because "this.bundle" is null
+	at View.UserView.<init>(UserView.java:15)
+	at Controller.UserController.<init>(UserController.java:33)
+	at Controller.AppController.runController(AppController.java:92)
+	at Main.main(Main.java:10)
+
+2023-05-09 12:10:09.281:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2569)
+	at Controller.UserController.sell(UserController.java:141)
+	at Controller.UserController.run(UserController.java:53)
+	at Controller.AppController.login(AppController.java:205)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-09 12:20:28.829:
+Model.Data.Exceptions.AlreadyExistsInCatalogException
+	at Model.Data.Catalogs.CarrierCatalog.add(CarrierCatalog.java:96)
+	at Model.AppModel.addPremiumCarrierToCatalog(AppModel.java:58)
+	at Controller.AppController.register(AppController.java:265)
+	at Controller.AppController.menu(AppController.java:111)
+	at Main.main(Main.java:11)
+
+2023-05-09 13:25:11.087:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:96)
+	at Controller.UserController.run(UserController.java:53)
+	at Controller.AppController.login(AppController.java:205)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-09 14:53:57.113:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:96)
+	at Controller.UserController.run(UserController.java:53)
+	at Controller.AppController.login(AppController.java:205)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-09 14:55:36.803:
+Model.Data.Exceptions.AlreadyExistsInCatalogException
+	at Model.Data.Catalogs.UserCatalog.add(UserCatalog.java:54)
+	at Model.AppModel.addUserToCatalog(AppModel.java:50)
+	at Controller.AppController.register(AppController.java:226)
+	at Controller.AppController.menu(AppController.java:109)
+	at Main.main(Main.java:11)
+
+2023-05-09 14:56:08.167:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:96)
+	at Controller.UserController.run(UserController.java:53)
+	at Controller.AppController.login(AppController.java:205)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-09 15:10:42.396:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:96)
+	at Controller.UserController.run(UserController.java:53)
+	at Controller.AppController.login(AppController.java:205)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-09 15:15:17.304:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:96)
+	at Controller.UserController.run(UserController.java:53)
+	at Controller.AppController.login(AppController.java:205)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-09 17:44:09.143:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:96)
+	at Controller.UserController.run(UserController.java:53)
+	at Controller.AppController.login(AppController.java:205)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-09 21:52:30.873:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:99)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:203)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-09 21:53:12.299:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:99)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:203)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-09 21:54:23.069:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:99)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:203)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-10 00:11:31.563:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2569)
+	at Controller.UserController.sell(UserController.java:144)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:201)
+	at Controller.AppController.menu(AppController.java:116)
+	at Main.main(Main.java:11)
+
+2023-05-10 00:50:35.350:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:108)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:204)
+	at Controller.AppController.menu(AppController.java:119)
+	at Main.main(Main.java:11)
+
+2023-05-10 01:09:03.134:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserWhoEarnedTheMost(AppModel.java:204)
+	at Controller.AppController.statistics(AppController.java:300)
+	at Controller.AppController.menu(AppController.java:126)
+	at Main.main(Main.java:11)
+
+2023-05-10 01:09:23.775:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserWhoEarnedTheMostInPeriodOfTime(AppModel.java:212)
+	at Controller.AppController.statistics(AppController.java:314)
+	at Controller.AppController.menu(AppController.java:126)
+	at Main.main(Main.java:11)
+
+2023-05-10 01:09:28.281:
+Model.Types.Exceptions.CarrierNotFoundException: Carrier not found.
+	at Model.AppModel.getCarrierThatEarnedTheMost(AppModel.java:228)
+	at Controller.AppController.statistics(AppController.java:324)
+	at Controller.AppController.menu(AppController.java:126)
+	at Main.main(Main.java:11)
+
+2023-05-10 01:09:50.852:
+java.io.InvalidClassException: Model.AppModel; local class incompatible: stream classdesc serialVersionUID = 578471896237869138, local class serialVersionUID = 4475202330725697117
+	at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:597)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2076)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1925)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2248)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:538)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:496)
+	at Model.State.loadData(State.java:29)
+	at Controller.AppController.runController(AppController.java:74)
+	at Main.main(Main.java:10)
+
+2023-05-10 02:43:53.387:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:99)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:215)
+	at Controller.AppController.menu(AppController.java:122)
+	at Main.main(Main.java:11)
+
+2023-05-10 02:47:57.929:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserWhoEarnedTheMostInPeriodOfTime(AppModel.java:212)
+	at Controller.AppController.lambda$statistics$4(AppController.java:373)
+	at Controller.AppController.sortedUsers(AppController.java:332)
+	at Controller.AppController.statistics(AppController.java:372)
+	at Controller.AppController.menu(AppController.java:127)
+	at Main.main(Main.java:11)
+
+2023-05-10 02:48:23.009:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2569)
+	at Controller.UserController.sell(UserController.java:110)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:215)
+	at Controller.AppController.menu(AppController.java:122)
+	at Main.main(Main.java:11)
+
+2023-05-10 03:11:54.080:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:108)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:215)
+	at Controller.AppController.menu(AppController.java:122)
+	at Main.main(Main.java:11)
+
+2023-05-10 03:19:13.325:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:99)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:215)
+	at Controller.AppController.menu(AppController.java:122)
+	at Main.main(Main.java:11)
+
+2023-05-10 12:36:54.812:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserWhoEarnedTheMost(AppModel.java:204)
+	at Controller.AppController.lambda$statistics$0(AppController.java:346)
+	at Controller.AppController.highestUser(AppController.java:295)
+	at Controller.AppController.statistics(AppController.java:345)
+	at Controller.AppController.menu(AppController.java:127)
+	at Main.main(Main.java:11)
+
+2023-05-10 12:36:58.609:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserWhoEarnedTheMost(AppModel.java:204)
+	at Controller.AppController.lambda$statistics$0(AppController.java:346)
+	at Controller.AppController.highestUser(AppController.java:295)
+	at Controller.AppController.statistics(AppController.java:345)
+	at Controller.AppController.menu(AppController.java:127)
+	at Main.main(Main.java:11)
+
+2023-05-10 12:37:16.476:
+Model.Types.Exceptions.CarrierNotFoundException: Carrier not found.
+	at Model.AppModel.getCarrierThatEarnedTheMost(AppModel.java:236)
+	at Controller.AppController.statistics(AppController.java:369)
+	at Controller.AppController.menu(AppController.java:127)
+	at Main.main(Main.java:11)
+
+2023-05-10 12:46:36.102:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.run(UserController.java:52)
+	at Controller.AppController.login(AppController.java:215)
+	at Controller.AppController.menu(AppController.java:122)
+	at Main.main(Main.java:11)
+
+2023-05-10 13:03:08.005:
+Model.Data.Exceptions.AlreadyExistsInCatalogException
+	at Model.Data.Catalogs.UserCatalog.add(UserCatalog.java:58)
+	at Model.AppModel.addUserToCatalog(AppModel.java:49)
+	at Controller.AppController.register(AppController.java:236)
+	at Controller.AppController.menu(AppController.java:115)
+	at Main.main(Main.java:11)
+
+2023-05-10 14:44:47.122:
+java.io.IOException: Is a directory
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.read(FileDispatcherImpl.java:48)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:339)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:305)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:282)
+	at java.base/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:240)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:74)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:103)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:333)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:376)
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:219)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:173)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:189)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:371)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:348)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:437)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3414)
+	at Controller.Parser.parseFile(Parser.java:28)
+	at Controller.AppController.runController(AppController.java:72)
+	at Main.main(Main.java:10)
+
+2023-05-10 14:45:22.566:
+java.nio.file.NoSuchFileException: users
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseFile(Parser.java:28)
+	at Controller.AppController.runController(AppController.java:73)
+	at Main.main(Main.java:10)
+
+2023-05-10 14:45:44.720:
+java.nio.file.NoSuchFileException: users.csv
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseFile(Parser.java:28)
+	at Controller.AppController.runController(AppController.java:73)
+	at Main.main(Main.java:10)
+
+2023-05-10 14:47:21.316:
+java.io.IOException: Is a directory
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.read(FileDispatcherImpl.java:48)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:339)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:305)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:282)
+	at java.base/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:240)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:74)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:103)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:333)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:376)
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:219)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:173)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:189)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:371)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:348)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:437)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3414)
+	at Controller.Parser.parseFile(Parser.java:26)
+	at Controller.AppController.runController(AppController.java:72)
+	at Main.main(Main.java:10)
+
+2023-05-10 14:47:25.862:
+java.nio.file.NoSuchFileException: users
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseFile(Parser.java:26)
+	at Controller.AppController.runController(AppController.java:72)
+	at Main.main(Main.java:10)
+
+2023-05-10 14:50:24.823:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/users
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseFile(Parser.java:26)
+	at Controller.AppController.runController(AppController.java:72)
+	at Main.main(Main.java:10)
+
+2023-05-11 05:55:52.414:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/mi
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2892)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3387)
+	at Controller.Parser.parseFile(Parser.java:27)
+	at Controller.AppController.runController(AppController.java:73)
+	at Main.main(Main.java:10)
+
+2023-05-11 05:55:54.995:
+java.io.FileNotFoundException: AppLog.dat (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at Model.State.loadData(State.java:27)
+	at Controller.AppController.runController(AppController.java:77)
+	at Main.main(Main.java:10)
+
+2023-05-11 06:12:24.138:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/users
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2892)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3387)
+	at Controller.Parser.parseFile(Parser.java:27)
+	at Controller.AppController.runController(AppController.java:73)
+	at Main.main(Main.java:10)
+
+2023-05-11 06:12:26.905:
+java.io.FileNotFoundException: AppLog.dat (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at Model.State.loadData(State.java:27)
+	at Controller.AppController.runController(AppController.java:77)
+	at Main.main(Main.java:10)
+
+2023-05-11 06:14:45.813:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/users
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2892)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3387)
+	at Controller.Parser.parseFile(Parser.java:27)
+	at Controller.AppController.runController(AppController.java:73)
+	at Main.main(Main.java:10)
+
+2023-05-11 15:00:47.980:
+java.io.FileNotFoundException: AppLog.dat (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at Model.State.loadData(State.java:27)
+	at Controller.AppController.runController(AppController.java:78)
+	at Main.main(Main.java:10)
+
+2023-05-11 15:02:08.076:
+java.io.FileNotFoundException: AppLog.dat (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at Model.State.loadData(State.java:27)
+	at Controller.AppController.runController(AppController.java:78)
+	at Main.main(Main.java:10)
+
+2023-05-11 15:08:18.073:
+java.io.FileNotFoundException: AppLog.dat (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at Model.State.loadData(State.java:27)
+	at Controller.AppController.runController(AppController.java:78)
+	at Main.main(Main.java:10)
+
+2023-05-11 15:11:34.745:
+java.io.FileNotFoundException: AppLog.dat (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at Model.State.loadData(State.java:27)
+	at Controller.AppController.runController(AppController.java:78)
+	at Main.main(Main.java:10)
+
+2023-05-11 18:41:22.068:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/0
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2892)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3387)
+	at Controller.Parser.parseFile(Parser.java:27)
+	at Controller.AppController.runController(AppController.java:73)
+	at Main.main(Main.java:10)
+
+2023-05-12 06:22:20.788:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/0
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2892)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3387)
+	at Controller.Parser.parseArticleFile(Parser.java:70)
+	at Controller.AppController.runController(AppController.java:92)
+	at Main.main(Main.java:10)
+
+2023-05-12 13:45:38.487:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2569)
+	at Controller.UserController.sell(UserController.java:137)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:236)
+	at Controller.AppController.menu(AppController.java:148)
+	at Main.main(Main.java:11)
+
+2023-05-12 14:37:24.020:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:92)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:243)
+	at Controller.AppController.menu(AppController.java:155)
+	at Main.main(Main.java:11)
+
+2023-05-12 14:43:31.155:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/mi
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseUserFile(Parser.java:34)
+	at Controller.AppController.runController(AppController.java:78)
+	at Main.main(Main.java:10)
+
+2023-05-12 14:44:08.640:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.UserController.sell(UserController.java:92)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:243)
+	at Controller.AppController.menu(AppController.java:155)
+	at Main.main(Main.java:11)
+
+2023-05-12 15:37:42.771:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/0
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseUserFile(Parser.java:40)
+	at Controller.AppController.runController(AppController.java:78)
+	at Main.main(Main.java:10)
+
+2023-05-12 15:51:24.410:
+java.io.InvalidClassException: Model.AppModel; local class incompatible: stream classdesc serialVersionUID = -7366231394427469092, local class serialVersionUID = -4685911799815737049
+	at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:597)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2076)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1925)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2248)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:538)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:496)
+	at Model.State.loadData(State.java:29)
+	at Controller.AppController.runController(AppController.java:106)
+	at Main.main(Main.java:10)
+
+2023-05-12 15:53:39.532:
+java.io.InvalidClassException: Model.AppModel; local class incompatible: stream classdesc serialVersionUID = -7366231394427469092, local class serialVersionUID = -4685911799815737049
+	at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:597)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2076)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1925)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2248)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:538)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:496)
+	at Model.State.loadData(State.java:29)
+	at Controller.AppController.runController(AppController.java:106)
+	at Main.main(Main.java:10)
+
+2023-05-12 15:55:18.402:
+java.io.InvalidClassException: Model.AppModel; local class incompatible: stream classdesc serialVersionUID = -7366231394427469092, local class serialVersionUID = -4685911799815737049
+	at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:597)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2076)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1925)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2248)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:538)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:496)
+	at Model.State.loadData(State.java:29)
+	at Controller.AppController.runController(AppController.java:106)
+	at Main.main(Main.java:10)
+
+2023-05-12 16:18:25.898:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/asd
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseCarrierFile(Parser.java:58)
+	at Controller.AppController.runController(AppController.java:85)
+	at Main.main(Main.java:10)
+
+2023-05-12 16:39:26.752:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2569)
+	at Controller.UserController.sell(UserController.java:137)
+	at Controller.UserController.run(UserController.java:56)
+	at Controller.AppController.login(AppController.java:247)
+	at Controller.AppController.menu(AppController.java:159)
+	at Main.main(Main.java:11)
+
+2023-05-12 19:13:07.620:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/simulation
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseSimulation(Parser.java:136)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-12 19:31:27.003:
+java.io.InvalidClassException: Model.AppModel; local class incompatible: stream classdesc serialVersionUID = -7366231394427469092, local class serialVersionUID = 4073039182183718869
+	at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:597)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2076)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1925)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2248)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1760)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:538)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:496)
+	at Model.State.loadData(State.java:29)
+	at Controller.AppController.runController(AppController.java:106)
+	at Main.main(Main.java:10)
+
+2023-05-12 20:34:53.704:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:291)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-12 20:39:48.756:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:291)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-12 20:39:48.759:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:291)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-12 20:40:02.032:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:291)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-12 20:40:02.034:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:291)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-12 20:44:39.835:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:291)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-12 20:49:22.186:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:291)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-12 21:03:41.467:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:294)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-12 21:03:41.471:
+java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at Controller.Parser.parseSimulation(Parser.java:167)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-12 21:04:40.412:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:294)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:34:37.137:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/simulation.csb
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseSimulation(Parser.java:140)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:34:43.152:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:34:43.155:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:34:43.160:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:85)
+	at Controller.Parser.parseSimulation(Parser.java:314)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:35:08.480:
+Model.Data.Exceptions.AlreadyExistsInCatalogException
+	at Model.Data.Catalogs.UserCatalog.add(UserCatalog.java:58)
+	at Model.AppModel.addUserToCatalog(AppModel.java:50)
+	at Controller.Parser.createUser(Parser.java:59)
+	at Controller.Parser.parseSimulation(Parser.java:168)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:35:08.482:
+Model.Data.Exceptions.AlreadyExistsInCatalogException
+	at Model.Data.Catalogs.UserCatalog.add(UserCatalog.java:58)
+	at Model.AppModel.addUserToCatalog(AppModel.java:50)
+	at Controller.Parser.createUser(Parser.java:59)
+	at Controller.Parser.parseSimulation(Parser.java:168)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:35:08.484:
+Model.Data.Exceptions.AlreadyExistsInCatalogException
+	at Model.Data.Catalogs.CarrierCatalog.add(CarrierCatalog.java:91)
+	at Model.AppModel.addPremiumCarrierToCatalog(AppModel.java:58)
+	at Controller.Parser.createCarrier(Parser.java:133)
+	at Controller.Parser.parseSimulation(Parser.java:173)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:35:08.487:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:35:08.488:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:35:08.490:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:85)
+	at Controller.Parser.parseSimulation(Parser.java:314)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:38:02.562:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:38:02.567:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:40:09.183:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/simulation
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseSimulation(Parser.java:140)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:40:14.482:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:40:14.485:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:41:47.570:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:41:47.574:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:41:47.580:
+Model.Types.Exceptions.ReturnOrderException: Cannot return order. Time limit exceeded.
+	at Model.AppModel.returnOrder(AppModel.java:243)
+	at Model.AppModel.returnOrder(AppModel.java:229)
+	at Controller.Parser.parseSimulation(Parser.java:325)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:42:06.491:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/0
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseSimulation(Parser.java:140)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:42:37.152:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:42:37.157:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:46:21.918:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:46:21.922:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:46:21.932:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:46:21.933:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:47:10.795:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:47:10.799:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:47:10.805:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:47:10.806:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:47:53.349:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:47:53.353:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:47:53.359:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 00:47:53.359:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:10:04.114:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:10:04.118:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:10:04.124:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:10:04.125:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:10:04.129:
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Controller.Parser.parseSimulation(Parser.java:157)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:13:51.795:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:13:51.800:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:13:51.805:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:13:51.806:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:13:51.808:
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Controller.Parser.parseSimulation(Parser.java:157)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:14:22.371:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:14:22.375:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:14:22.382:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:14:22.382:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.814:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:178)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.817:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:178)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.818:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:178)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.818:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:178)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.819:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:290)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.819:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:290)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.820:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:305)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.821:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:314)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.821:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:290)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.822:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:290)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.822:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:305)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:18:02.823:
+Model.Types.Exceptions.UserNotFoundException: User not found.
+	at Model.AppModel.getUserID(AppModel.java:87)
+	at Controller.Parser.parseSimulation(Parser.java:322)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:19:12.190:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:19:12.194:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:19:12.200:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:19:12.201:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:20:22.220:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:20:22.225:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:20:22.230:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:20:22.231:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:24:49.778:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:24:49.782:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:24:49.788:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:24:49.789:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:292)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:26:32.283:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:26:32.287:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:26:32.293:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:26:32.294:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:40:43.872:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:40:43.878:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:40:43.886:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:40:43.887:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:42:17.463:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:42:17.468:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:42:17.474:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:42:17.475:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:43:12.680:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:43:12.685:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:43:12.690:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 01:43:12.691:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:288)
+	at Controller.AppController.runController(AppController.java:99)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:42:04.006:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:42:04.009:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:42:04.012:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:42:04.013:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:54:02.648:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:54:02.650:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:54:02.654:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:54:02.654:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:58:41.032:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:58:41.035:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:58:41.042:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 13:58:41.042:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:12:13.656:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:12:13.659:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:12:13.663:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:12:13.664:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:26:01.120:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:26:01.123:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:26:01.126:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:26:01.126:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:33:39.379:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:33:39.381:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:33:39.385:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:33:39.385:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:33:39.389:
+java.lang.ArrayIndexOutOfBoundsException: Index 18 out of bounds for length 18
+	at Controller.Parser.parseSimulation(Parser.java:589)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:35:25.407:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:35:25.409:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:35:25.413:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:35:25.413:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:45:42.589:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:45:42.591:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:45:42.595:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:45:42.595:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:45:42.599:
+java.lang.NumberFormatException: For input string: "Nike"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:735)
+	at Controller.Parser.parseSimulation(Parser.java:567)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:45:42.600:
+java.lang.NumberFormatException: For input string: "Puma"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:735)
+	at Controller.Parser.parseSimulation(Parser.java:584)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:46:58.567:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:46:58.569:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:46:58.573:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:46:58.573:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:49:06.608:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:49:06.610:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:49:06.613:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:49:06.614:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:49:06.618:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:49:06.619:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:55:30.085:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:55:30.088:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:55:30.091:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:55:30.092:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:55:30.096:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:55:30.097:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:57:26.851:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:57:26.854:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:57:26.857:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:57:26.858:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:57:26.862:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 14:57:26.863:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:00:25.265:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:00:25.268:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:00:25.271:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:00:25.271:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:00:25.276:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:00:25.276:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:00:25.277:
+java.lang.IllegalArgumentException: Invalid UUID string: Sapatos assinados pelo Ted Williams
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:00:25.278:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.642:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.647:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.651:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.651:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.656:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.656:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.657:
+java.lang.IllegalArgumentException: Invalid UUID string: Sapatos assinados pelo Ted Williams
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.657:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.658:
+java.lang.IllegalArgumentException: Invalid UUID string: Breaking bad T-Shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.659:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.659:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.660:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:06:57.660:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.507:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.509:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.513:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.514:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.518:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.519:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.520:
+java.lang.IllegalArgumentException: Invalid UUID string: Sapatos assinados pelo Ted Williams
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.520:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.521:
+java.lang.IllegalArgumentException: Invalid UUID string: Breaking bad T-Shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.521:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.521:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.522:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:07:37.522:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.280:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.282:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.286:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.286:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.291:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.292:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.293:
+java.lang.IllegalArgumentException: Invalid UUID string: Sapatos assinados pelo Ted Williams
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.293:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.294:
+java.lang.IllegalArgumentException: Invalid UUID string: Breaking bad T-Shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.295:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.295:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.296:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:10:55.296:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:630)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.967:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.971:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.976:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.977:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.983:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.983:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.984:
+java.lang.IllegalArgumentException: Invalid UUID string: Sapatos assinados pelo Ted Williams
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.985:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.986:
+java.lang.IllegalArgumentException: Invalid UUID string: Breaking bad T-Shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.987:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.987:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.988:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-13 15:59:49.988:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:100)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:35.716:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.AppController.runController(AppController.java:68)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:38.749:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at Controller.AppController.menu(AppController.java:156)
+	at Main.main(Main.java:11)
+
+2023-05-14 16:27:41.664:
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2569)
+	at Controller.AppController.register(AppController.java:305)
+	at Controller.AppController.menu(AppController.java:167)
+	at Main.main(Main.java:11)
+
+2023-05-14 16:27:53.932:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.934:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.938:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.939:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.944:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.945:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.946:
+java.lang.IllegalArgumentException: Invalid UUID string: Sapatos assinados pelo Ted Williams
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.947:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.948:
+java.lang.IllegalArgumentException: Invalid UUID string: Breaking bad T-Shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.948:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.948:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.949:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 16:27:53.949:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:633)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:04:59.060:
+java.nio.file.NoSuchFileException: src/Resources/CSV Files/simulation.csb
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2921)
+	at java.base/java.nio.file.Files.readAllLines(Files.java:3411)
+	at Controller.Parser.parseSimulation(Parser.java:212)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.390:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.392:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.397:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.397:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.404:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.405:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.406:
+java.lang.IllegalArgumentException: Invalid UUID string: Sapatos assinados pelo Ted Williams
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.407:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.408:
+java.lang.IllegalArgumentException: Invalid UUID string: Breaking bad T-Shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.408:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.409:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.410:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:05:06.411:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.146:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.148:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.151:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.152:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.157:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.158:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.159:
+java.lang.IllegalArgumentException: Invalid UUID string: Sapatos assinados pelo Ted Williams
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.159:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.160:
+java.lang.IllegalArgumentException: Invalid UUID string: Breaking bad T-Shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.160:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.161:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.161:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:24:45.162:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.213:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.216:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.219:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.219:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.224:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.224:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.225:
+java.lang.IllegalArgumentException: Invalid UUID string: Sapatos assinados pelo Ted Williams
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.225:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.226:
+java.lang.IllegalArgumentException: Invalid UUID string: Breaking bad T-Shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.226:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.226:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.227:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:23.227:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:26:42.025:
+Model.Types.Exceptions.ReturnOrderException: Cannot return order. Time limit exceeded.
+	at Model.AppModel.returnOrder(AppModel.java:245)
+	at Controller.UserController.displayUserOrders(UserController.java:434)
+	at Controller.UserController.run(UserController.java:82)
+	at Controller.AppController.login(AppController.java:271)
+	at Controller.AppController.menu(AppController.java:172)
+	at Main.main(Main.java:11)
+
+2023-05-14 21:27:08.784:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.787:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.791:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.791:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.796:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.796:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.797:
+java.lang.IllegalArgumentException: Invalid UUID string: Sapatos assinados pelo Ted Williams
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.797:
+java.lang.IllegalArgumentException: Invalid UUID string: The greatest shoes to ever exist
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.798:
+java.lang.IllegalArgumentException: Invalid UUID string: Breaking bad T-Shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.798:
+java.lang.IllegalArgumentException: UUID string too large
+	at java.base/java.util.UUID.fromString1(UUID.java:264)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.799:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice bag
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.799:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice t-shirt
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
+2023-05-14 21:27:08.800:
+java.lang.IllegalArgumentException: Invalid UUID string: Very nice shoes
+	at java.base/java.util.UUID.fromString1(UUID.java:280)
+	at java.base/java.util.UUID.fromString(UUID.java:258)
+	at Controller.Parser.parseSimulation(Parser.java:253)
+	at Controller.AppController.runController(AppController.java:103)
+	at Main.main(Main.java:10)
+
